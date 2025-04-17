@@ -5,64 +5,33 @@ import User from "../models/user.model.js";
 config();
 
 const seedUsers = [
-    // Female Users
+
     {
-        email: "varsha@example.com",
+        email: "varsha@email.com",
         fullName: "Varsha",
         password: "123456",
-        profilePic: "https://randomuser.me/api/portraits/women/1.jpg",
+        profilePic: "https://res.cloudinary.com/da5kyzruk/image/upload/v1744450947/sample.jpg",
+
     },
     {
-        email: "ragini@example.com",
-        fullName: "Raginir",
+        email: "ragini@email.com",
+        fullName: "Ragini",
         password: "123456",
-        profilePic: "https://randomuser.me/api/portraits/women/2.jpg",
+        profilePic: "https://res.cloudinary.com/da5kyzruk/image/upload/v1744450952/samples/food/spices.jpg",
     },
     {
-        email: "sampada@example.com",
+        email: "sampada@email.com",
         fullName: "Sampada",
         password: "123456",
-        profilePic: "https://randomuser.me/api/portraits/women/3.jpg",
+        profilePic: "https://res.cloudinary.com/da5kyzruk/image/upload/v1744450952/samples/landscapes/nature-mountains.jpg",
     },
     {
-        email: "anamika@example.com",
+        email: "anamika@email.com",
         fullName: "Anamika",
         password: "123456",
-        profilePic: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        email: "nisha@example.com",
-        fullName: "Nisha",
-        password: "123456",
-        profilePic: "https://randomuser.me/api/portraits/women/5.jpg",
+        profilePic: "https://res.cloudinary.com/da5kyzruk/image/upload/v1744450957/samples/balloons.jpg",
     },
 
-    // Male Users
-    {
-        email: "abhishek@example.com",
-        fullName: "Abhishek",
-        password: "123456",
-        profilePic: "https://randomuser.me/api/portraits/men/1.jpg",
-    },
-    {
-        email: "aarav@example.com",
-        fullName: "Aarav",
-        password: "123456",
-        profilePic: "https://randomuser.me/api/portraits/men/2.jpg",
-    },
-    {
-        email: "aarush@example.com",
-        fullName: "Aarush",
-        password: "123456",
-        profilePic: "https://randomuser.me/api/portraits/men/3.jpg",
-    },
-    {
-        email: "harsh@example.com",
-        fullName: "Harsh",
-        password: "123456",
-        profilePic: "https://randomuser.me/api/portraits/men/4.jpg",
-    },
-   
 ];
 
 const seedDatabase = async () => {
