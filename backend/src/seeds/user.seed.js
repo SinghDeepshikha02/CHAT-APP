@@ -10,7 +10,7 @@ const seedUsers = [
         email: "varsha@email.com",
         fullName: "Varsha",
         password: "123456",
-        profilePic: "https://res.cloudinary.com/da5kyzruk/image/upload/v1744450947/sample.jpg",
+        profilePic: "https://res.cloudinary.com/da5kyzruk/image/upload/v1746109369/bzrvrzycyytgotcbt54v.jpg",
 
     },
     {
@@ -26,7 +26,7 @@ const seedUsers = [
         profilePic: "https://res.cloudinary.com/da5kyzruk/image/upload/v1744450952/samples/landscapes/nature-mountains.jpg",
     },
     {
-        email: "anamika@email.com",
+        email: "anamika@emailcom",
         fullName: "Anamika",
         password: "123456",
         profilePic: "https://res.cloudinary.com/da5kyzruk/image/upload/v1744450957/samples/balloons.jpg",
